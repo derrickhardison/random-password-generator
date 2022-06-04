@@ -55,3 +55,8 @@ mainBtn.addEventListener("click", function () {
   password4.textContent = "";
   displayPasswords();
 });
+
+// TO-DO List
+//  1. Change textContent to value once html elements have been changed from buttons to text inputs
+
+// 2. Enable 1 click copy to clipboard functionality after buttons have been changed to text inputs
