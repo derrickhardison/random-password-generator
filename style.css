@@ -12,6 +12,9 @@ body {
   background: #1c1c1c;
 }
 
+h1 {
+  margin: 0px;
+}
 #container {
   margin: auto;
   width: 550px;
@@ -41,13 +44,19 @@ body {
   font-family: "Inter", sans-serif;
   border-radius: 5px;
   border: none;
-  cursor: pointer;
+
+  font-weight: 500px;
 }
 
 .main-btn {
   background: #10b981;
   padding: 9px 25px;
   color: #fff;
+  width: 223px;
+  height: 42px;
+  margin-top: 50px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .secondary-btn {
@@ -55,6 +64,7 @@ body {
   height: 39px;
   background: #273549;
   margin: 10px 0 15px 0;
+  color: #55f991;
 }
 
 .btn-group-1 {
